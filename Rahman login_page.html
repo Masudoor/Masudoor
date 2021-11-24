@@ -1,0 +1,40 @@
+<html>
+<head><title>www.Rahman.com - Login Page</title></head>
+<body background="background\bg.jpg">
+<table align="center">
+<tr>
+<td colspan="2"><center><u><font face="Bodoni MT Black" size="+4" color="#151B54">Rahman.com</font></u></center>
+</tr>
+<tr>
+<td><img src="login_car.jpg"></td>
+<td>
+<table align="center">
+<script language="javascript">
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="Rahman") { 
+if (form.pass.value=="1914408") {              
+location="Welcome.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+</script>
+<tr><td><h1><i><b><font color="#7E2217">User Name:</b></i></h1></td><td><form name="login"><input
+name="id" type="text"></td></tr></font><br>
+<tr><td><h1><i><b><font color="#7E2217">Password:   &nbsp&nbsp</b></i></h1></td><td><input name="pass"
+type="password"></td></tr></font><br> <br><br>
+<tr><td><center><input type="button" value="Login"
+onClick="pasuser(this.form)"></center></td><td><center><input
+type="Reset"></form></td></tr></table></center></td>
+
+<hr size="5" color="gray">
+<center><b>Copyright © Rahman</b></center>
+
+</body>
+</html> 
